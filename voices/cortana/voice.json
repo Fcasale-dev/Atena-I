@@ -1,0 +1,8 @@
+{
+  "pitch": 0,
+  "f0_method": "rmvpe",
+  "index_rate": 0.6,
+  "protect": 0.33,
+  "rms_mix_rate": 0.25,
+  "filter_radius": 3
+}

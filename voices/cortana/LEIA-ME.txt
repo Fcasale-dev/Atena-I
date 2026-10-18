@@ -1,0 +1,14 @@
+Coloque aqui o modelo RVC da voz:
+
+  - arquivo .pth   (obrigatorio)
+  - arquivo .index (recomendado; use o que comeca com "added_")
+
+Ajustes em voice.json:
+  pitch       : tom em semitons. A voz da Gemini ja e feminina, comece em 0.
+                Se ficar grave demais, tente 2 ou 4.
+  f0_method   : "rmvpe" (melhor qualidade) ou "pm" (mais rapido, se a voz atrasar).
+  index_rate  : 0 a 1. Mais alto = mais parecido com a voz original (pode chiar).
+  protect     : 0 a 0.5. Protege consoantes/respiracao; 0.33 e um bom padrao.
+
+Para usar outra voz: crie outra pasta em voices\ e mude "rvc_voice" no
+config\api_keys.json para o nome dessa pasta.
