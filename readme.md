@@ -162,7 +162,7 @@ O nome foi escolhido por seu criador, **Felipe Casale**, em homenagem a **Atena*
 
 ### Passo a passo
 ```bash
-git clone https://github.com/<seu-usuario>/<seu-repositorio>.git
+git clone https://github.com/<Fcasale-dev>/https://github.com/Fcasale-dev/Atena-I.git
 cd <seu-repositorio>
 python setup.py      # instala as dependências do seu sistema
 python main.py       # inicia a ATENA
